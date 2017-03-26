@@ -11,5 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Setup pyenv and pyenv virtual env
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
