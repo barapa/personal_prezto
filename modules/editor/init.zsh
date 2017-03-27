@@ -240,6 +240,9 @@ fi
 # Vi Key Bindings
 #
 
+# <jj> for normal mode
+bindkey -M viins 'jj' vi-cmd-mode
+
 # Edit command in an external editor.
 bindkey -M vicmd "v" edit-command-line
 
