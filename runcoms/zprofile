@@ -53,13 +53,13 @@ path=(
   $HOME/homebrew/bin
   $path
 )
+export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
 
 # Conda
 path=(
   $HOME/anaconda/bin
   $path
 )
-export LD_LIBRARY_PATH=$HOME/homebrew/lib:$LD_LIBRARY_PATH
 
 #
 # Less
