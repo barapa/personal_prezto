@@ -61,6 +61,12 @@ path=(
   $path
 )
 
+# Rust
+path=(
+  $HOME/.cargo/bin
+  $path
+)
+
 #
 # Less
 #
