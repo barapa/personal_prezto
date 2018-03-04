@@ -67,6 +67,16 @@ path=(
   $path
 )
 
+# Android SDK tools and platform tools
+path=(
+  $HOME/Library/Android/sdk/tools
+  $path
+)
+path=(
+  $HOME/Library/Android/sdk/platform-tools
+  $path
+)
+
 #
 # Less
 #
