@@ -35,3 +35,8 @@ fi
 if [ -r "${HOME}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc" ]; then
   source "${HOME}/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 fi
+
+# Google laptop setup.
+if [ -r "${HOME}/.at_google" ]; then
+  source /Library/GoogleCorpSupport/srcfs/shell_completion/enable_completion.sh
+fi
