@@ -74,6 +74,12 @@ path=(
   $path
 )
 
+# Flutter
+path=(
+  $HOME/development/flutter/bin
+  $path
+)
+
 #
 # Less
 #
