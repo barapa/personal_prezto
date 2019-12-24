@@ -80,6 +80,12 @@ path=(
   $path
 )
 
+# Dart
+path=(
+  $HOME/development/flutter/bin/cache/dart-sdk/bin
+  $path
+)
+
 #
 # Less
 #
